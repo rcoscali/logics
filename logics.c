@@ -151,7 +151,7 @@ int main(int argc, char **argv)
       printf("in[%03d] = %9s  ", 10-n, dec2bin(in, dec2bin_tab0));
       out = logic(in);
       flag[10-n] = map[out];
-      printf("out[%03d] = %9s (%d) flag[%d] = '%c'\n", 10-n, dec2bin(out, dec2bin_tab0), out, 10-n, flag[10-n]);
+      printf("out[%03d] = %9s (%03d) flag[%d] = '%c'\n", 10-n, dec2bin(out, dec2bin_tab0), out, 10-n, flag[10-n]);
       in = out;
     }
   while(--n);
