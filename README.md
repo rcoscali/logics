@@ -1,5 +1,26 @@
 # logics
 
+This is a little helper program to solve the cybersecurity [ReplyChallenge](https://challenges.reply.com/) that occured on 15th & 16th oct 2021. Statistics on results are here [ReplyChallenge stats](https://challenges.reply.com/tamtamy/challenge/reply-cybersecurity-challenge-2021/stats).
+
+## Problem
+
+The problem to solve is about a logic circuit shown here after: 
+![The logic circuit](/images/misc100-readme-1-circuit.png)
+
+The explanation text:
+![The story](/images/misc100-readme-1-story.png)
+
+and finally the mem map:
+![The Memory Map](/images/misc100-readme-1-memmap.png)
+
+The original [PDF file](misc100-readme-1.pdf)
+
+The final flag to submit was 
+
+'''
+{FLG:<found_string>}
+'''
+
 ## Building
 
 ``` 
