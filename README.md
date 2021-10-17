@@ -20,5 +20,7 @@ $ ./logics
 Tests logs are in:
 
 ```
-build/Testing/Temporary/LastTest.log
+$ cd build
+$ ninja test
+$ cat Testing/Temporary/LastTest.log
 ```
