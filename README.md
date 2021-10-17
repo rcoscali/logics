@@ -4,7 +4,7 @@
 
 ``` 
 $ mdir build
-$ cd builsd
+$ cd build
 $ cmake -G Ninja ..
 $ ninja
 ``` 
