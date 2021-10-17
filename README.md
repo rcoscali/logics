@@ -4,9 +4,9 @@
 
 ``` 
 $ mdir build
+$ cd builsd
 $ cmake -G Ninja ..
 $ ninja
-$ ninja test
 ``` 
 
 ## Run
